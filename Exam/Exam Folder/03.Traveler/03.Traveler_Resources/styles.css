@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Karla;
+    font-size: 18px;
+}
+
+body {
+    max-width: 1920px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.icon {
+    width: 115px;
+}
+
+header {
+    background-image: url(./images/poster.jpg);
+    height: 870px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header h2 {
+    font-family: Cormorant Infant;
+    font-size: 90px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .first {
+    background-color: #F8F0E9;
+    height: 620px;
+}
+
+main .first h2 {
+    font-family: Cormorant Infant;
+    font-size: 90px;
+}
+
+main .second {
+    background-color: #E14747;
+    height: 330px;
+}
+
+main .third {
+    background-color: #F8F0E9;
+    height: 1350px;
+}
+
+.picture {
+    width: 625px;
+    height: 470px;
+}
+
+main .fourth {
+    background-color: #E14747;
+    height: 620px;
+}
+
+footer {
+    background-color: #352B2A;
+    height: 310px;
+}
