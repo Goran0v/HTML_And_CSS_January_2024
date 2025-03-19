@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons CSS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <style>
+        @import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+        .button {
+            cursor: pointer;
+            outline: none;
+            display: inline-block;
+            border: 2px solid rgb(51, 51, 51);
+            padding: 0.5em 0.9em;
+            margin: 0;
+            border-radius: 2em;
+        }
+
+        .button:hover {
+            background: rgb(0, 102, 0);
+            color: rgb(251, 251, 251);
+        }
+
+        .button.fill {
+            background: rgb(51, 51, 51);
+        }
+    </style>
+</head>
+<body>
+    <h2>Normal Buttons</h2>
+        <a href="#" class="button">Learn More</a>
+        <button class="button">Learn More</button>
+        <button class="button hover">Learn More</button>
+    <h2>Filled Buttons</h2>
+        <a href="#" class="button fill">Learn More</a>
+        <button class="button fill">Learn More</button>
+        <button class="button fill hover">Learn More</button>
+    <h2>Icon Buttons</h2>
+        <a href="#" class="button fill">Learn More</a>
+        <button class="button fill">Learn More</button>
+        <button class="button fill hover">Learn More</button>
+</body>
+</html>
